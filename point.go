@@ -10,8 +10,8 @@ type Point struct {
 	y float64
 }
 
-func (this *Point)  Distance() float64 {
-    return math.Pow(math.Pow(this.x, 2) + math.Pow(this.y, 2), 0.5)
+func (this *Point) Distance() float64 {
+	return math.Pow(math.Pow(this.x, 2)+math.Pow(this.y, 2), 0.5)
 }
 
 func main() {
